@@ -1,13 +1,10 @@
-﻿@page
+﻿@page "~/sobre"
 @model MyRazorApp.Pages.AbautModel
+@{
+    ViewData["Title"] = "Sobre";
+}
+<h1>Sobre</h1>
 
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <div>
-            <h1>Sobre</h1>
-        </div>
-    </body>
-</html>
+@section scripts {
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
